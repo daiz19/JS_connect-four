@@ -1,0 +1,23 @@
+/* 20px x 20px のマスが 7 x 7 収まるグリッド / ボトムの列は枠外にする*/
+.grid {
+    width: 140px;
+    height: 120px;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}
