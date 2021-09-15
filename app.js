@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded',() => {
                 square3.classList.contains('player-one') &&
                 square4.classList.contains('player-one')
             ) {
-                result.innerHTML = 'PLayer One Wins!'
+                result.innerHTML = 'Player One Wins!'
             }
             // プレイヤー２の置いた駒が4つ並ぶパターンに当てはまるかチェック
             if (
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded',() => {
                 square3.classList.contains('player-two') &&
                 square4.classList.contains('player-two')
             ) {
-                result.innerHTML = 'PLayer Two Wins!'
+                result.innerHTML = 'Player Two Wins!'
             }
         }
     }
